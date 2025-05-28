@@ -1,0 +1,18 @@
+name: Slack Notification Only
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  slack-notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Notify Slack
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_MESSAGE: "Code pushed successfully*"
+          SLACK_COLOR: '#439FE0'
