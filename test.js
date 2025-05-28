@@ -26,3 +26,13 @@ function multiply(a, b) {
 // Example usage
 const product = multiply(6, 7);
 console.log("The product is:", product);
+
+function divide(a, b) {
+    if (b === 0) {
+      return "Error: Division by zero";
+    }
+    return a / b;
+}
+  // Example usage
+const quotient = divide(20, 5);
+console.log("The quotient is:", quotient);
