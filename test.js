@@ -7,3 +7,7 @@ function add(a, b) {
   const result = add(5, 3);
   console.log("The sum is:", result);
   
+const y = 10;
+const z = 20;
+const sum = y + z;
+console.log("The sum of y and z is:", sum);
