@@ -36,3 +36,10 @@ function divide(a, b) {
   // Example usage
 const quotient = divide(20, 5);
 console.log("The quotient is:", quotient);
+
+function modulus(a, b) {
+    return a % b;
+}
+  // Example usage
+const remainder = modulus(10, 3);
+console.log("The remainder is:", remainder);
