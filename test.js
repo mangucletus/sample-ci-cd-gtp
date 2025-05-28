@@ -19,3 +19,10 @@ function subtract(a, b) {
 // Example usage
 const difference = subtract(10, 4);
 console.log("The difference is:", difference);  
+
+function multiply(a, b) {
+    return a * b;
+  }
+// Example usage
+const product = multiply(6, 7);
+console.log("The product is:", product);
